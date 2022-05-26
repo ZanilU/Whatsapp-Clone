@@ -90,6 +90,13 @@ const Home = () => {
       message: 'Hello',
       time: '12:30 A M',
     },
+    {
+      id: 13,
+      image: require('../../../Assets/images/profile_image.png'),
+      name: 'Moosa',
+      message: 'Hello',
+      time: '12:30 A M',
+    },
   ];
   return (
     <ScrollView>
