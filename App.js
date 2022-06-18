@@ -11,9 +11,24 @@ import Storiesview from './src/components/Storiesview';
 import Chatscreen from './src/components/includes/Chat-Screen/Chatscreen';
 import Profileimage from './src/components/includes/Chat-Screen/Profileimage';
 
-
 const App = () => {
+  const message = [
+		{
+			id: 1,
+			name: 'Zanil',
+			message: 'Hello',
+			recieve: 'hi'
+		},
+		{
+			id: 2,
+			name: 'Afsal',
+			message: 'Hello',
+			recieve: 'hi'
+			
+		},
+  ]
   const Stack = createNativeStackNavigator();
+
   return (
     <>
      <NavigationContainer>
